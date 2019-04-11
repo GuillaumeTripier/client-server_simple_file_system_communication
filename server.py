@@ -11,6 +11,7 @@ def loop(fileDate, fileName):
         f = open(fileName,"r")
         text = f.read()
         f.close
+        assert(text == "Hello world")
         print("Massage Reçu : \n" + text)
     return(newFileDate)
 
